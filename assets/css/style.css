@@ -80,6 +80,7 @@ h3 {
 nav {
   float: right;
   margin-top: 25px;
+  padding-right: 20px;
 }
 
 nav a {
@@ -216,26 +217,81 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* .wrapper {
+  /* Box-model */
+  width: 100%;
+  padding: 20px, 20px;
+} 
+/* .work {
+  width: 100px;
+}
+
+#main-container,
+#masthead{
+  width: 640px;
+  margin-bottom: 20px;
+} 
+
+#sidebar {
+  margin-top: 40px;
+} 
+#header {
+  position: static
+} */
+@media screen and (max-width: 980px) {
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  #mastheaad  {
+    max-width: 960px
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    max-width: 740px;
+    margin: auto;
+  }
+  #mastheaad {
+    max-width: 740px;
+    margin: 40px, 40px;
+  }
+
+}
+
 @media screen and (max-width: 640px) {
-  body {
-    color: #777;
+  .container{
+    max-width: 95%;
+    margin: 10px, 10px;
+    
   }
+  
+  #main-container{
+    max-width: 95%;
+  }
+  
 
-  .wrapper {
-    /* Box-model */
-    width: 100%;
-    padding: 20px;
-  }
+  #mastheaad{
+    max-width: 100%;
+    position: static;
+    float: left;
 
-  #ma#main-container,
-  #masthead{
-    width: 100%;
   }
+  #nlinks {
+    max-width: 100%;
 
-  #sidebar {
-    margin-top: 40px;
+    
   }
-  #header {
-    position: static
+  #img { 
+   max-width: 100%;
+   align-content: center;
   }
 }
+  
+
+   
+
